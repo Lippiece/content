@@ -52,7 +52,7 @@ new SharedWorker(aURL, options)
     - `name`
       - : A string specifying an
         identifying name for the {{domxref("SharedWorkerGlobalScope")}} representing the
-        scope of the worker, which is mainly useful for debugging purposes.
+        scope of the worker, which is useful for creating new instances of the same SharedWorker and debugging.
 
 ### Exceptions
 
